@@ -45,7 +45,7 @@ export const ContentImage = styled.div`
     width: 467px;
     height: 810px;
     @media (max-width: 700px) {
-
+      width: auto;
   }
   
 `;
@@ -60,7 +60,7 @@ export const Image = styled.img`
   @media (max-width: 700px) {
     width: 70%;
    margin-top: 190px;
-   padding-right: 100px;
+   padding-right: 10px;
   }
 `;
 
